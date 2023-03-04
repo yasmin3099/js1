@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+body{
+    background-image: url(../images/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    background-size: cover;
+    height: 1000px;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+ul{
+    margin: auto;
+    width: 80%;
+    display:grid;
+    grid-template-columns: repeat(4,20%);
+    
+}
+li{
+    margin-top: 20%;
+    list-style: none;
+    margin-left:50%;
+}
+ul h2{
+    font-size: medium;
+}
+button{
+    width: 100px;
+    background-color: rgba(177, 235, 243, 0.842);
+    color: gray;
+    border: none;
+    padding: 5px;
+    
+}
+
